@@ -8,7 +8,8 @@ jump = document.getElementById("desplazar");
 function cifrar(){
  let codificado="";
  let mensaje = msj.value;
- let saltos = parseInt(jump.value);
+ let saltos = parseInt(jump.value)%26;
+ 
  for (i = 0; i < mensaje.length; i++) {
    let determCode = mensaje.charCodeAt(i);
 
