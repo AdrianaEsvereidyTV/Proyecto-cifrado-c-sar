@@ -38,11 +38,11 @@ function descifrar(){
   
 
    if (determCode >= 65 && determCode <= 90){
-    descifrado += String.fromCharCode((determCode - 65 - saltos) % 26 + 65);
+    descifrado += String.fromCharCode((determCode - 90 - saltos) % 26 + 90);
     document.getElementById("cifrado").innerHTML = descifrado;
     console.log(descifrado);
    }else if (determCode >= 97 && determCode <= 122) {
-    descifrado += String.fromCharCode((determCode - 97 - saltos) % 26 + 97);
+    descifrado += String.fromCharCode((determCode - 122 - saltos) % 26 + 122);
     document.getElementById("cifrado").innerHTML = descifrado;
     console.log(descifrado);
    }else if (determCode === 32) {
