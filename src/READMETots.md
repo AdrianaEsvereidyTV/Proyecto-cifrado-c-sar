@@ -2,7 +2,7 @@
 
 ##De qué va...:musical_note:
 
-Por petición de algunos fans se decidió hacer un intercambio de mensajes entre fans, en memoria del maestro [Isao Takahata](https://es.wikipedia.org/wiki/Isao_Takahata), debido a su reciente fallecimiento, con el deseo de que charlar con personas que comparten el mismo gusto, prueba nuevas experiencias y pensamientos, por ello se ha creado una aplicación con la funcionalidad del Cifrado César.
+Con la finalidad de compartir e intercambiar mensajes entre fans en memoria del maestro [Isao Takahata](https://es.wikipedia.org/wiki/Isao_Takahata), debido a su reciente fallecimiento se busca charlar con otras personas sobre ello y que mejor que hacer que la memoria de un grande tenga marca en las almas de quienes aprecían su arte, prueba nuevas experiencias y pensamientos ocultando el mensaje de los entes ajenos al tema, por esa razón se ha creado una aplicación con la funcionalidad del Cifrado César.
 
 Comenta con tus amigos para que te vayas desenpolvando la mente y goza esa sensación de expulsar ese sentimiento, pronto tendremos el chat para ampliar el rango de nuevas conexiones...
 
@@ -20,11 +20,11 @@ Por ejemplo si usáramos un desplazamiento de 3:
 
 ## ¿Por qué es relevante? 
 
-Podrás cifrar un mensaje y así ocultar lo que realmente estás escribiendo eso sería la sustitución y el número que asignes será el cambio de posición que ocurrirá, a qué es emocionante ¿verdad?.
+Podrás cifrar un mensaje y así ocultar lo que realmente estás escribiendo, eso sería la sustitución y el número que asignes será el cambio de posición que ocurrirá, a qué es emocionante ¿verdad?.
 
 Espero te resulte intrigante las posibilidades de intercambiar palabras con desconocidos con un gusto en común que es el de apreciar el arte de Studio Ghibli.
 
-![El viaje de Chihiro](https://i.pinimg.com/originals/28/1d/c2/281dc259e0c7a154c1fb8322f82a06e0.jpg)
+![El viaje de Chihiro](https://i.pinimg.com/originals/e1/1d/41/e11d41d05959fb9f7fbd82198adc36db.jpg)
 
 ## Dinámica de la aplicación
 
@@ -47,7 +47,7 @@ Muestra el mensaje ya descrifrado que de acuerdo a la anterior explicación debe
 
 Ten en cuenta que la aplicación aún se encuentra en etapa *beta*, ya se han agregado la mayoría de las características y la aplicación es funcional. Sin embargo, no está completamente libre de fallos o bugs, pero puede ser usada p con la advertencia de que cosas raras podrían pasar.
 
-Así te pedimos un poco de paciencia y verás que puede resultar en un app divertida.
+Así que te pedimos un poco de paciencia y verás que puede resultar en un app divertida.
 
 Te agradezco hayas leído hasta el final y estoy abierta a comentarios para mejorar... :see_no_evil: 
 
