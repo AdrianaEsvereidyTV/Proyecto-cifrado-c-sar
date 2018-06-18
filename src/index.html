@@ -3,29 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header> 
       <div id="Cabecera">
         <h1>Studio Ghibli (スタジオジブリ)</h1>
-        </div>
+      </div>
     </header>
     <h1>Cifrado César </h1> <!--Título de la impresión en HTML -->
-    <div id="root"></div>
-    <h2 id="Inicial" >Escribe el mensaje para un posible amigo. </h2> 
-    </span><p><input id="mensaje"type="text" placeholder="Escribe el mensaje..."></p>
-    <h2> Escribe el número mágico</h2></span><p><input id="desplazar"type="text" placeholder="Es un número mágico"></p>
-    <h2>Resultado がんばれ: </h2>
-    <div id="cifrado"></div>
-    <h3><th><span id="buttonA"><button>Cifrar</button></span></th> </h3>
-    <h2>Descubre el mensaje おもしろい: </h2>
-    <div id="descifrador"></div>
-    <h3><th><span id="buttonB"><button>Descifrar</button></span></th></h3>
     <h3> <th><span id="limpiar"><button>Vaciar</button></span></th></h3>
-   
-
+    <div id="root"></div>
+    <div id="fijos">
+     <ul>
+      <li>Mensaje</li>
+      <li>Cifra mensaje</li>
+      <li>Descrifra mensaje</li>
+     </ul>
+    </div>
+    <div id="Inicial">
+    <h2>Escribe el mensaje para un posible amigo. </h2> 
+    </span><p><input id="mensaje"type="text" placeholder="Escribe el mensaje..."></p>
+    <h2> Escribe el número mágico</h2></span><p><input id="desplazar"type="text" placeholder="Es un número mágico"></p></div>
+     <div id="Resultado">
+      <h2>Resultado </h2>
+      <h2> がんばれ: </h2>
+      <h2 id="cifrado"></h2>
+      <h3><th><span id="buttonA"><button>Cifrar</button></span></th> </h3>
+     </div>
+     <div id="Decodificador">
+      <h2>Descubre el mensaje おもしろい: </h2>
+      <h2 id="descifrador"></h2>
+      <h3><th><span id="buttonB"><button>Descifrar</button></span></th></h3>
+     </div>
+     <div id="Frase">
+       <blockquote cite="http://www.revistahorizonte.ml/2016/08/hayao-miyazaki-10-frases-inspiradoras.html">
+       <h2><em> "La creación de un único mundo proviene de un gran número de fragmentos y el caos."</em></h2>
+      </blockquote>
+      <h3><p>Frase de Hayao Miyazaki</p></div></h3>
+     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
