@@ -36,7 +36,7 @@ Escribe el mensaje que quieres cifrar para después compartir y debajo de ese re
 
 ### La segunda parte:
 
-Muestra el mensaje ya con las letras asignadas de acuerdo al número de los desplazamientos que en la primer parte seleccionaste, y para poder descifrar el mensaje se deberá copiar el resultado de está sección con el mismo número de desplzamientos que se seleccionó.
+Muestra el mensaje ya con las letras asignadas de acuerdo al número de los desplazamientos que en la primer parte seleccionaste, y para poder descifrar el mensaje se deberá copiar el resultado de está sección con el mismo número de desplazamientos que se seleccionó.
 
 ### La tercer parte:
 
@@ -47,7 +47,7 @@ Muestra el mensaje ya descrifrado que de acuerdo a la anterior explicación debe
 
 Ten en cuenta que la aplicación aún se encuentra en etapa *beta*, ya se han agregado la mayoría de las características y la aplicación es funcional. Sin embargo, no está completamente libre de fallos o bugs, pero puede ser usada p con la advertencia de que cosas raras podrían pasar.
 
-Así que te pedimos un poco de paciencia y verás que puede resultar en un app divertida.
+Así que te pedimos un poco de paciencia y verás que puede resultar una app divertida.
 
 Te agradezco hayas leído hasta el final y estoy abierta a comentarios para mejorar... :see_no_evil: 
 
