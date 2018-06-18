@@ -1,55 +1,47 @@
 window.cipher = {
-  // ...
-  
-};
-msj = document.getElementById("mensaje");
-jump = document.getElementById("desplazar");
+ offset: 33,
 
-function cifrar(){
- let codificado="";
- let mensaje = msj.value;
- let saltos = parseInt(jump.value)%26;
+encode: (offset,string) => {
+  let codificado= "";
+  let offsetEncode = parseInt(offset);
+  for (let i = 0; i< string.length; i++){
+    let codeRin = string.charCodeAt(i); 
+    if (codeRin >= 65 && codeRin <= 90){
+      codificado += String.fromCharCode((codeRin -65 + offsetEncode)%26+65);
+     
+    } else if (codeRin >= 97 && codeRin <= 122){
+      codificado += String.fromCharCode((codeRin -97 + offsetEncode)% 26 + 97);
+      
+    } else if (codeRin === 32){
+      codificado += String.fromCharCode(codeRin);
+      
+    }
+    console.log (codificado);
+  }
+  return codificado;
+},
+decode: (offset,string) =>{
+  let descifrado = "";
+  let offsetDecode = parseInt(offset);
+  for (let i = 0; i < string.length; i++) {
+    let decodeRin = string.charCodeAt(i); // Determina el mensaje del usuario
  
- for (i = 0; i < mensaje.length; i++) {
-   let determCode = mensaje.charCodeAt(i);
+    if (decodeRin >= 65 && decodeRin <= 90){
+     descifrado += String.fromCharCode((decodeRin - 90 - offsetDecode) % 26 + 90);
+     
+    }else if (decodeRin >= 97 && decodeRin <= 122) {
+     descifrado += String.fromCharCode((decodeRin - 122 - offsetDecode) % 26 + 122);
 
-   if (determCode >= 65 && determCode <= 90){
-    codificado += String.fromCharCode((determCode - 65 + saltos) % 26 + 65);
-    document.getElementById("cifrado").innerHTML = codificado;
-    console.log(codificado);
-   }else if (determCode >= 97 && determCode <= 122) {
-    codificado += String.fromCharCode((determCode - 97 + saltos) % 26 + 97);
-    document.getElementById("cifrado").innerHTML = codificado;
-    console.log(codificado);
-   }else if (determCode === 32) {
-    codificado += String.fromCharCode(determCode);
-    document.getElementById("cifrado").innerHTML = codificado;
-    console.log(codificado);
-   }
+    }else if (decodeRin === 32) {
+     descifrado += String.fromCharCode(decodeRin);
+     
+    }
+    console.log(descifrado);
  }
-};
-// Se genera una función que nos decodifique
-function descifrar(){
- let descifrado = "";
- let mensaje = msj.value;
- let saltos = parseInt(jump.value);
- for (i = 0; i < mensaje.length; i++) {
-   let determCode = mensaje.charCodeAt(i); // Determina el mensaje del usuario
-  
+ return descifrado;
+},
+createCipherWithOffset: (offsetHackerEdition)=>{
 
-   if (determCode >= 65 && determCode <= 90){
-    descifrado += String.fromCharCode((determCode - 90 - saltos) % 26 + 90);
-    document.getElementById("cifrado").innerHTML = descifrado;
-    console.log(descifrado);
-   }else if (determCode >= 97 && determCode <= 122) {
-    descifrado += String.fromCharCode((determCode - 122 - saltos) % 26 + 122);
-    document.getElementById("cifrado").innerHTML = descifrado;
-    console.log(descifrado);
-   }else if (determCode === 32) {
-    descifrado += String.fromCharCode(determCode);
-    document.getElementById("cifrado").innerHTML = descifrado;
-    console.log(descifrado);
-   }
- }
+} 
 
 };
