@@ -2,13 +2,12 @@
     margin: 0px;
     padding: 0px;
     font-family: GungsuhChe;
-    font-size: 22px;
+    font-size: 24px;
     
 }
 body{
     background: url("../img/Tren_Chihiro.jpg");
     background-attachment: fixed;
-   
     
 }
 
@@ -16,7 +15,6 @@ body{
     color: white;
     padding: 25px;
     padding-bottom: 35px;
-  
 }
 
 h1{
