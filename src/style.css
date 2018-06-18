@@ -2,10 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: GungsuhChe;
+    font-size: 24px;
+    
 }
 body{
     background: url("../img/Tren_Chihiro.jpg");
     background-attachment: fixed;
+    
 }
 
 #Cabecera{
@@ -38,7 +41,7 @@ div#fijos ul li {
     border: 0.1px solid rgb(34, 30, 30);
     margin-right: -5px;
     padding: 18px 0;
-    width: 33.22%;
+    width: 32.22%;
     color: white;
     text-align: center;
     font-size: 20px;
@@ -46,50 +49,51 @@ div#fijos ul li {
 }
 
 div#Inicial{
+    background-color: #d0b6d487;
     height:100%;
-    display: inline-block;
-    width: 32.20%;
+    display: inline-table;
+    width: 31.20%;
     margin-top: 15px;
 	height: 250px;
 	text-align: center;
 	font-size: 20px;
     line-height: 1.3;
     font-display: left; 
-    color:rgb(13, 14, 13); 
+    color:rgba(84, 48, 95, 0.932); 
 }
 div#Resultado {
-    display: inline-block;
-    width: 29%;
+    background-color: #d0b6d487;
+    display: inline-table;
+    width: 31.20%;
     margin-top: 15px;
 	height: 250px;
 	text-align: center;
 	font-size: 23px;
     line-height: 1.3;
-    float: center; 
-    color: rgb(13, 14, 13);
+    color: rgba(84, 48, 95, 0.932);
 
 }
 
 div#Decodificador {
-        display: inline-block;
-        width: 27%;
+       background-color: #d0b6d487;
+        display: inline-table;
+        width: 31.20%;
         margin-top: 15px;
         height: 250px;
         text-align: center;
         font-size: 23px;
         line-height: 1.3;
-        float: right; 
-        color:rgb(13, 14, 13);
+        color:rgba(84, 48, 95, 0.932);
 }
 
 input#mensaje {
-      display: inline-block;
+      display: inline-table;
       font-size: 25px;
       line-height: 1.3;
       color: #FF5733; 
 }
 
-input#desplazar{
+input#desplazar{    
     font-size: 25px;
     line-height: 1.3;
     color: #FF5733;
@@ -98,26 +102,30 @@ input#desplazar{
 #buttonA{
     display: inline-block;
     text-align: center;
-
+    font-size: 24px;
+    
   }
   #buttonB{
     display: inline-block;
     text-align: center;
+    font-size: 35px;
 
   }
 
   #limpiar{
    text-align: center; 
    float: center; 
-   font-size: 25px;
+   font-size: 35px;
    line-height: 1.3;
+
 
   }
 
-  #frase{
+  #Frase{
     display: inline-block;
-    width: 50%;
+    width: 85%;
     height: 50px;
+    background-color: #28e8ba54;
   
 }
 
