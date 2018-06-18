@@ -20,4 +20,4 @@ Podrás cifrar un mensaje y así ocultar lo que realmente estás escribiendo eso
 
 Espero te resulte intrigante las posibilidades de intercambiar palabras con desconocidos con un gusto en común que es el de apreciar el arte de Studio Ghibli.
 
-[El viaje de Chihiro] (https://orig00.deviantart.net/586c/f/2017/110/7/3/sin_cara_el_viaje_de_chihiro__by_sansupernovaoz-db6je3z.png)
+![El viaje de Chihiro](https://orig00.deviantart.net/586c/f/2017/110/7/3/sin_cara_el_viaje_de_chihiro__by_sansupernovaoz-db6je3z.png)
