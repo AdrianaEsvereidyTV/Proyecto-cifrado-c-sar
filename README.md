@@ -1,6 +1,6 @@
 # Fans de Studio Ghibli (スタジオジブリ)
 
-##De qué va...:musical_note:
+## De qué va...:musical_note:
 
 Con la finalidad de compartir e intercambiar mensajes entre fans en memoria del maestro [Isao Takahata](https://es.wikipedia.org/wiki/Isao_Takahata), debido a su reciente fallecimiento se busca charlar con otras personas sobre ello y que mejor que hacer que la memoria de un grande tenga marca en las almas de quienes aprecían su arte, prueba nuevas experiencias y pensamientos ocultando el mensaje de los entes ajenos al tema, por esa razón se ha creado una aplicación con la funcionalidad del Cifrado César.
 
